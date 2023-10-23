@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@ondemandmarket/cocuy": ["cocuy/src/index.ts"],
+      "@ondemandmarket/contexts": ["contexts/src/index.ts"],
+      "@ondemandmarket/mock-api": ["mock-api/src/index.ts"],
+      "@ondemandmarket/models": ["models/src/index.ts"],
+      "@ondemandmarket/reducers": ["reducers/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

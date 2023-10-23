@@ -1,0 +1,25 @@
+{
+  "name": "@ondemandmarket/cocuy",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "dependencies": {
+    "@adobe/react-spectrum": "^3.28.0",
+    "@spectrum-css/tokens": "^10.2.1",
+    "@spectrum-css/typography": "^5.0.25",
+    "@spectrum-css/vars": "^9.0.8",
+    "@spectrum-icons/workflow": "^4.2.2",
+    "@spectrum-icons/illustrations": "^3.6.3",
+    "@spectrum-icons/ui": "^3.5.3",
+    "@nx/devkit": "^16.3.2",
+    "formik": "^2.4.2",
+    "yup": "^1.2.0",
+    "@internationalized/date": "^3.3.0"
+  }
+}
